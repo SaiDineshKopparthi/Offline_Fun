@@ -1,0 +1,25 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: rgba(168, 163, 138, 1);
+}
+
+.full-height {
+    height: 100%;
+}
+
+.custom-div {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 30px; /* Padding around the content */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Centered text */
+}
+
+.custom-h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+    color: #5B92A2; /* Bootstrap primary color */
+    text-transform: uppercase; /* Uppercase letters */
+    letter-spacing: 2px; /* Spacing between letters */
+    margin-bottom: 0; /* No bottom margin */
+}

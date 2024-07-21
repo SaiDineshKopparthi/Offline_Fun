@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Play</title>
+    <style>
+        body {
+            text-align: center;
+            padding: 50px;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        #lottie-container {
+            width: 300px;
+            height: 300px;
+            margin: auto;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.6/lottie.min.js"></script>
+</head>
+
+<body>
+    <h1>You are offline</h1>
+    <p>Please check your internet connection.</p>
+    <div id="lottie-container" style="width: 500px; height: 500px;"></div>
+    <script>
+        var animation = lottie.loadAnimation({
+            container: document.getElementById('lottie-container'), // the dom element that will contain the animation
+            renderer: 'svg', // the renderer to use: 'svg', 'canvas' or 'html'
+            loop: true, // whether to loop the animation
+            autoplay: true, // whether to start playing the animation automatically
+            path: 'animation.json' // the path to the animation json
+        });
+    </script>
+</body>
+
+</html>

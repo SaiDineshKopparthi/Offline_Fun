@@ -1,0 +1,14 @@
+{
+  "name": "offline_fun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "Dinesh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
